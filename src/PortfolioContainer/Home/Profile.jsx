@@ -1,5 +1,6 @@
 import Typical from "react-typical";
 import React from "react";
+import "./Profile.css";
 
 export default function Profile() {
   return (
@@ -7,21 +8,23 @@ export default function Profile() {
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://www.facebook.com/erodit12">
-              <i className="fa fa-facebook-square"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-google-plus-square"></i>
-            </a>
-            <a href="https://www.instagram.com/eroditmehmetii/">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-youtube-square"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-twitter"></i>
-            </a>
+            <div className="colz-icon">
+              <a href="https://www.facebook.com/erodit12">
+                <i className="fa fa-facebook-square"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-google-plus-square"></i>
+              </a>
+              <a href="https://www.instagram.com/eroditmehmetii/">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-youtube-square"></i>
+              </a>
+              <a href="#">
+                <i className="fa fa-twitter"></i>
+              </a>
+            </div>
           </div>
           <div className="profile-details-name">
             <span className="primary-text">
@@ -68,6 +71,9 @@ export default function Profile() {
               <button className="btn highlighted-btn">Get Resumes</button>
             </a>
           </div>
+        </div>
+        <div className="profile-picture">
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
